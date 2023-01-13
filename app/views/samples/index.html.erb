@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="title">
+        <h1>Here is a sample model in Rails</h1>
+        <p><em>Hello World!!!</em></p>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <% @samples.each do |sample| %>
+        <div class="sample-text">
+            <%= sample.sample_text %>
+        </div>
+        <div class="num-value">
+            | number: <%= sample.num_value %>
+        </div>
+    <% end %>
+</div>
