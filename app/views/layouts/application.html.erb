@@ -19,11 +19,11 @@
     <div class="container">
       <div class="header">
           <div class="icon">
-            <%= image_tag ('piano.png') %>
+            <%= link_to image_tag('piano.png'), root_path  %>
           </div>
           <div class="navigation">
               <ul>
-                  <li><%= link_to 'Works' %></li>
+                  <li><%= link_to 'Works', works_path %></li>
               </ul>
           </div>
       </div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="title">
+        <h1>Accomplishments to the Rails Course</h1>
+        <p><em>Codecademy course</em></p>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <% @works.each_with_index do |sample, index| %>
+        <div class="sample-text">
+            <%= work.image %>
+        </div>
+        <div class="num-value">
+            <p><%= work.name %> -- <%= work.description %></p>
+        </div>
+    <% end %>
+</div>
