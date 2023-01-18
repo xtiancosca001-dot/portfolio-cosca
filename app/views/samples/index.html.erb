@@ -6,12 +6,12 @@
 </div>
 <hr>
 <div class="container">
-    <% @samples.each do |sample| %>
+    <% @samples.each_with_index do |sample, index| %>
         <div class="sample-text">
-            <%= sample.sample_text %>
+            <%= index+1 %>. <%= sample.sample_text %>
         </div>
         <div class="num-value">
-            | number: <%= sample.num_value %>
+            <p><%= sample.num_value %></p>
         </div>
     <% end %>
 </div>

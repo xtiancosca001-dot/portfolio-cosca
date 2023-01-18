@@ -12,7 +12,7 @@
 /* Navigation Bar Styling */
 
 .header {
-    background: rgb(152, 34, 34);
+    background: #322d29;
     height: 45px;
     width: 100%;
     position: fixed;
@@ -46,8 +46,33 @@
 
 /* Main content Styling */
 
+body {
+    background: url(ortigas-skyline-1166732.jpg);
+}
+
 .main {
-    background: url(../images/ortigas-skyline-1166732.jpg);
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    padding: 100px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title h1, p {
+    color: #fff;
+}
+
+.sample-text, .num-value p {
+    color: #fff;
+}
+
+.num-value {
+    font-style: italic;
 }
 
 
@@ -56,13 +81,33 @@
 .footer {
     bottom: 0;
     left: 0;
-    background: #000;
+    background: #322d29;
     width: 100%;
     position: fixed;
+    color: #fff;
+    padding: 10px;
 }
 
 .footer p {
     text-align: center;
     margin: auto;
     color: #fff;
+}
+
+.details ul {
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+}
+.details ul li {
+    display: inline-block;
+}
+
+.details ul li img {
+    width: 20px;
+}
+
+.details ul li a {
+    color: #fff;
+    text-decoration: none;
 }
